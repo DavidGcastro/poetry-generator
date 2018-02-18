@@ -1,32 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/temp/source.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-
-
-
-    <title>Untitled Document</title>
+    <link href="styles/temp/source.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <title>Poetry Generator</title>
 </head>
 
 <body>
-   
+    <div class="wrapper">
+        <div class="leftSide">
+            <form>
+                <div class="formItems">
+                    <label for="songSelect">Song:</label>
+                    <select name="song" id="songSelect"> 
+                     <optgroup label="Song">
+                     <option value="triumph">triumph</option>
+                     <option value="cream">C.R.E.A.M</option>
+                    </select>
+                </div>
+                <div class="formItems">
+                    <label for="wordSelect">Words per line:</label>
+
+                    <input id="words" type="number" name="words" value="5" min="1" max="20">
+
+                </div>
+                <div class="formItems">
+                    <label for="lineSelect">Number of Lines:</label>
+                    <input id="lines" type="number" name="lines" value="10" min="1" max="20">
+                </div>
+            </form>
+            <a class="leftSide--random" id="button" href="">Randomize</a>
+        </div>
+        <div class="rightSide">
+            <div class="rightSide--poem">
+
+            </div>
+            <!--           <img src="images/Asset%201.svg">-->
+        </div>
+
+    </div>
+    <div class="centered--content">
+        <h2>WuPoetry</h2>
+        <p>Select from Dropdowns</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js">
 
 
+    </script>
+    <script src='js/main.js' type="text/javascript">
 
-   <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
 
-    <script src='js/main.js' type="text/javascript"></script>
-    
+    </script>
 </body>
 
 </html>
