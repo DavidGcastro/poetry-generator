@@ -7,19 +7,26 @@ label {
     margin: 0;
     display: block;
     margin: 0;
-    margin-bottom: -70px;
+    /*    margin-bottom: -70px;*/
+}
 
+form {
+    z-index: 5;
 }
 
 
 .formItems {
+    z-index: 400;
     display: inline-block;
+    margin: 0 5px;
 }
 
 select {
-/*    -webkit-appearance: none;
-    *//*    -webkit-border-radius: 0px;
-    */    border-radius: 0;
+    /*    -webkit-appearance: none;
+    */
+    /*    -webkit-border-radius: 0px;
+    */
+    border-radius: 0;
     height: 40px;
     padding: 10px;
     border: 1px black solid;

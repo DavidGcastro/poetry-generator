@@ -8,25 +8,29 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Shadows+Into+Light" rel="stylesheet">
     <title>Poetry Generator</title>
 </head>
 
 <body>
     <div class="wrapper">
         <div class="leftSide">
+
             <form>
                 <div class="formItems">
                     <label for="songSelect">Song:</label>
                     <select name="song" id="songSelect"> 
                      <optgroup label="Song">
-                     <option value="triumph">triumph</option>
+                     <option value="triumph">Triumph</option>
                      <option value="cream">C.R.E.A.M</option>
+                     <option value="bring the ruckus">Bring The Ruckus</option>
+                         
                     </select>
                 </div>
                 <div class="formItems">
                     <label for="wordSelect">Words per line:</label>
 
-                    <input id="words" type="number" name="words" value="5" min="1" max="20">
+                    <input id="words" type="number" name="words" value="5" min="1" max="15">
 
                 </div>
                 <div class="formItems">
@@ -34,19 +38,21 @@
                     <input id="lines" type="number" name="lines" value="10" min="1" max="20">
                 </div>
             </form>
-            <a class="leftSide--random" id="button" href="">Randomize</a>
+            <a class="leftSide--random" id="button" href="">Generate Poetry</a>
         </div>
         <div class="rightSide">
+
             <div class="rightSide--poem">
 
             </div>
-            <!--           <img src="images/Asset%201.svg">-->
         </div>
 
     </div>
     <div class="centered--content">
-        <h2>WuPoetry</h2>
-        <p>Select from Dropdowns</p>
+        <h2><span class="black">WuP</span>oetry</h2>
+        <p><span class="black">Select from </span>Dropdowns</p>
+        <img src="images/Asset%201.svg">
+
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js">
 

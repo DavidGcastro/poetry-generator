@@ -1,19 +1,21 @@
 body {
     background: white;
-    font-size: 80px;
-
+    /*    font-size: 80px;*/
 }
-
 
 html,
 body {
+    /*    background: #575757;*/
     background: #f8f8f8!important;
-    font-family: 'Oswald', sans-serif;
+    /*
+    font-family: 'Oswald',
+    sans-serif;
+*/
+    font-family: 'Shadows Into Light', cursive;
+    /*    font-family: 'Gloria Hallelujah', cursive;*/
     margin: 0;
     padding: 0;
     height: 100%;
-
-
 
 
     h2 {
@@ -24,7 +26,6 @@ body {
 }
 
 
-
 * {
     box-sizing: border-box;
     text-decoration: none;
@@ -33,10 +34,17 @@ body {
 
 .hidden {
 
-    display: none;
+    opacity: 0;
 
     @mixin atSmall {
-        display: block;
+        opacity: 1;
     }
 }
 
+.black {
+    color: white;
+    @mixin atSmall {
+        color: black;
+
+    }
+}
