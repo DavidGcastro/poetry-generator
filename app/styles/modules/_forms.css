@@ -7,7 +7,6 @@ label {
     margin: 0;
     display: block;
     margin: 0;
-    /*    margin-bottom: -70px;*/
 }
 
 form {
@@ -22,10 +21,8 @@ form {
 }
 
 select {
-    /*    -webkit-appearance: none;
-    */
-    /*    -webkit-border-radius: 0px;
-    */
+
+
     border-radius: 0;
     height: 40px;
     padding: 10px;

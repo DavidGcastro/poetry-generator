@@ -1,18 +1,12 @@
 body {
     background: white;
-    /*    font-size: 80px;*/
 }
 
 html,
 body {
-    /*    background: #575757;*/
     background: #f8f8f8!important;
-    /*
-    font-family: 'Oswald',
-    sans-serif;
-*/
+
     font-family: 'Shadows Into Light', cursive;
-    /*    font-family: 'Gloria Hallelujah', cursive;*/
     margin: 0;
     padding: 0;
     height: 100%;
