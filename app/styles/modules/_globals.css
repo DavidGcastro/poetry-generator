@@ -6,7 +6,8 @@ html,
 body {
     background: #f8f8f8!important;
 
-    font-family: 'Shadows Into Light', cursive;
+    /*    font-family: 'Shadows Into Light', cursive;*/
+    font-family: 'Oswald';
     margin: 0;
     padding: 0;
     height: 100%;
